@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Aaftab Mohammad — Software Engineer",
+  title: "Aaftab Mohammad — Software/ML Engineer",
   description:
     "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
   generator: "Next.js",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Aaftab Mohammad — Computer Engineering Student",
+    title: "Aaftab Mohammad — Software/ML Engineer",
     description:
       "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
     url: "https://aaftabmohammad.com/",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         url: "https://aaftabmohammad.com/profile.webp",
         width: 1200,
         height: 630,
-        alt: "Aaftab Mohammad — Computer Engineering Student",
+        alt: "Aaftab Mohammad — Software/ML Engineer",
       },
     ],
     locale: "en-US",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aaftab Mohammad — Computer Engineering Student",
+    title: "Aaftab Mohammad — Software/ML Engineer",
     description:
       "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
     creator: "aaftabmohammad",
