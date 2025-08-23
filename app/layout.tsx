@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     title: "Aaftab Mohammad — Computer Engineering Student",
     description:
       "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
-    url: "https://www.aaftabmohammad.me/",
-    siteName: "www.aaftabmohammad.me",
+    url: "https://aaftabmohammad.com/",
+    siteName: "aaftabmohammad.com",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://aaftabmohammad.com/profile.webp",
         width: 1200,
         height: 630,
         alt: "Aaftab Mohammad — Computer Engineering Student",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     creator: "aaftabmohammad",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "https://aaftabmohammad.com/profile.webp",
     ],
   },
   robots: {
