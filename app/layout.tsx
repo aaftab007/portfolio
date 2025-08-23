@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Aaftab Mohammad — Computer Engineering Student",
+  title: "Aaftab Mohammad — Software Engineer",
   description:
     "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
   generator: "Next.js",
