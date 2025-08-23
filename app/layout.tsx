@@ -11,9 +11,9 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Aaftab Mohammad — Computer Engineering Student",
+  title: "Aaftab Mohammad — Software/AI Engineer",
   description:
-    "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
+    "Software/AI Engineer specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
   generator: "Next.js",
   applicationName: "Aaftab Mohammad",
   keywords: [
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Aaftab Mohammad — Computer Engineering Student",
+    title: "Aaftab Mohammad — Software/AI Engineer",
     description:
-      "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
+      "Software/AI Engineer specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
     url: "https://aaftabmohammad.com/",
     siteName: "aaftabmohammad.com",
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         url: "https://aaftabmohammad.com/profile.webp",
         width: 1200,
         height: 630,
-        alt: "Aaftab Mohammad — Computer Engineering Student",
+        alt: "Aaftab Mohammad — Software/AI Engineer",
       },
     ],
     locale: "en-US",
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aaftab Mohammad — Computer Engineering Student",
+    title: "Aaftab Mohammad — Software/AI Engineer",
     description:
-      "Computer Engineering MS Student at NYU specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
+      "Software/AI Engineer specializing in backend services, ML serving, and data pipelines. Building scalable systems with Python, Java, FastAPI, and PyTorch.",
     creator: "aaftabmohammad",
     creatorId: "1243720976552144897",
     images: [
