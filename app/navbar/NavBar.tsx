@@ -4,17 +4,30 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    // first prevent the default behavior
-    e.preventDefault();
-    // get the href and remove everything before the hash (#)
-    const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
-    // get the element by id and use scrollIntoView
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    });
+  const handleScroll = (sectionId: string) => {
+    // Add a small delay to ensure DOM is ready
+    setTimeout(() => {
+      const elem = document.getElementById(sectionId);
+      console.log("Looking for element:", sectionId, "Found:", elem); // Debug
+      
+      if (elem) {
+        // Calculate offset for fixed navbar
+        const elementPosition = elem.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - 100; // 100px offset
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      } else {
+        console.error("Element not found:", sectionId);
+        // Fallback: try scrolling to top of page
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+    }, 100);
   };
 
   return (
@@ -33,48 +46,40 @@ const NavBar = () => {
         />
       </Link>
 
-      <Link
-        href="#home"
+      <button
         data-blobity-magnetic="false"
-        onClick={handleScroll}
+        onClick={() => handleScroll("home")}
         aria-label="Scroll to Home Section"
+        className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4 cursor-pointer hover:bg-white/10 transition-colors"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Home
-        </h4>
-      </Link>
-      <Link
-        href="#work"
+        Home
+      </button>
+      <button
         data-blobity-magnetic="false"
-        onClick={handleScroll}
+        onClick={() => handleScroll("work")}
         aria-label="Scroll to Work Section"
+        className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4 cursor-pointer hover:bg-white/10 transition-colors"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Work
-        </h4>
-      </Link>
+        Work
+      </button>
 
-      <Link
-        href="#about"
+      <button
         data-blobity-magnetic="false"
-        onClick={handleScroll}
+        onClick={() => handleScroll("about")}
         aria-label="Scroll to About Section"
+        className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4 cursor-pointer hover:bg-white/10 transition-colors"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          About
-        </h4>
-      </Link>
+        About
+      </button>
 
-      <Link
-        href="#contact"
+      <button
         data-blobity-magnetic="false"
-        onClick={handleScroll}
+        onClick={() => handleScroll("contact")}
         aria-label="Scroll to Contact Section"
+        className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4 cursor-pointer hover:bg-white/10 transition-colors"
       >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Contact
-        </h4>
-      </Link>
+        Contact
+      </button>
     </nav>
   );
 };

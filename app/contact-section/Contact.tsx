@@ -68,8 +68,8 @@ const Contact = () => {
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
               >
                 <AnimatedBody
-                  text={"Quick chat"}
-                  className={"w-[110px] md:w-[120px]"}
+                  text={"Let's connect"}
+                  className={"w-[110px] md:w-[120px] whitespace-nowrap"}
                 />
               </Link>
             </div>

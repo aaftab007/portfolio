@@ -25,28 +25,17 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in building distributed systems, microservices, and machine learning solutions. Currently pursuing MS in Computer Engineering at NYU, I'm passionate about creating scalable software that drives real impact."
+                "My work blends distributed systems and machine learning — from multi-agent RAG pipelines to real-time streaming platforms and safety evaluation frameworks."
               }
             />
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
-              }
-              className={"hidden"}
-            />
-            <AnimatedBody
-              text={
-                "With experience at Maxgen Technologies, Cloudwapp, and Global Galaxy, I've built fault-tolerant Kafka pipelines, optimized Redis caching systems, and migrated platforms from jQuery to React, consistently improving performance by 30-60%."
+                "I've built fault-tolerant APIs, optimized data pipelines, and developed ML systems at NYU, Maxgen, and Cloudwapp, combining reliability engineering with applied AI. My recent research at NYU's Global Public Health Lab used GPT-4 and spaCy to extract structured insights from thousands of unstructured global-health reports, helping automate data-driven decisions."
               }
             />
             <AnimatedBody
               text={
-                "My research on Driver Drowsiness Detection using AI has been published in IJARESM. I'm currently working on exciting projects including an AI-powered Resume Analysis Platform and a Comprehensive Project Management Tool."
-              }
-            />
-            <AnimatedBody
-              text={
-                "I'm currently working on some exciting projects that I can't wait to share with you. But I’m always open to new opportunities and collaborations."
+                "I enjoy solving problems where AI meets infrastructure — from scalable backend systems to intelligent automation. I'm always open to collaborations in AI tooling, ML research, and backend optimization."
               }
             />
           </div>
@@ -54,7 +43,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Programming Languages"}
+                text={"Programming"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -63,13 +52,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Python, Java, C/C++, Go, JavaScript, TypeScript, HTML, CSS, SQL."
+                  "Python, Java, C/C++, Go, JavaScript/TypeScript, SQL"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Tools & Platforms"}
+                text={"ML & AI"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -78,13 +67,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Kubernetes, Docker, Kafka, Redis, Terraform, Spring Boot, React.js, Node.js, Express.js, REST APIs, Microservices, Prometheus, Grafana, Git/GitHub Actions, AWS S3, GCP, MongoDB, PostgreSQL, MySQL, JUnit."
+                  "PyTorch, Transformers, XGBoost, LangChain, spaCy, MLflow, Sentence-Transformers"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Machine Learning"}
+                text={"Backend & Infra"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -93,7 +82,22 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "PyTorch, BERT, spaCy, FastAPI, NLP, Computer Vision, Deep Learning, Model Deployment, Hyperparameter Tuning, Feature Engineering."
+                  "Node.js, Express, FastAPI, Kafka, Redis, Docker, Airflow, AWS, GCP, PostgreSQL, MongoDB"
+                }
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"DevOps & Tools"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "Kubernetes, Terraform, Prometheus, Grafana, GitHub Actions, Playwright"
                 }
               />
             </div>

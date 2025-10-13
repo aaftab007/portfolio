@@ -44,7 +44,7 @@ const Hero = () => {
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              QUICK CHAT
+              LET'S CONNECT
             </motion.button>
           </Link>
         </div>
@@ -111,7 +111,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Software & ML Engineer | MS in Computer Engineering at{" "}
+            AI & Software Engineer | M.S. Computer Engineering,{" "}
             <Link
               href="https://www.nyu.edu/"
               target="_blank"
@@ -119,7 +119,7 @@ const Hero = () => {
               aria-label="NYU Website"
             >
               NYU
-            </Link>.
+            </Link>
           </p>
         </motion.div>
 
@@ -128,9 +128,9 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Building scalable APIs, data pipelines
+           Engineering distributed AI platforms
             <br />
-            & AI infrastructure.
+            and performance-optimized backends.
           </p>
         </motion.div>
       </div>

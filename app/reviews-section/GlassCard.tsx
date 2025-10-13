@@ -12,10 +12,10 @@ export interface ExperienceCardProps extends React.HTMLAttributes<HTMLDivElement
 // Function to get company logo path
 const getCompanyLogo = (companyName: string): string => {
   const logoMap: { [key: string]: string } = {
-    "Maxgen Technologies Pvt. Ltd": "/companies/maxgen-logo.png",
+    "NYU Applied Global Public Health Initiative": "/companies/nyu-agphi-logo.png",
+    "Maxgen Technologies Pvt. Ltd.": "/companies/maxgen-logo.png",
+    "Cloudwapp Technologies Pvt. Ltd.": "/companies/cloudwapp-logo.png",
     "Sparks To Ideas": "/companies/sparks-logo.png",
-    "Cloudwapp Technologies Pvt. Ltd": "/companies/cloudwapp-logo.png",
-    "Global Galaxy International Consultancy": "/companies/global-galaxy-logo.png"
   };
   
   return logoMap[companyName] || "/companies/maxgen-logo.png"; // fallback
