@@ -15,9 +15,9 @@ export const experienceDetails: experienceProps[] = [
     technologies: ["Python", "GPT-4", "spaCy", "Airflow", "SQL", "XGBoost", "FastAPI"]
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     company: "Maxgen Technologies Pvt. Ltd.",
-    duration: "Sept 2022 – Sept 2023",
+    duration: "Jan 2023 – May 2023",
     description: "Optimized REST APIs (Node.js + Express) for user auth and content delivery — 35% faster average response time serving 10K+ daily requests. Redesigned MySQL schema with indexing and normalization — 40% faster queries on analytics endpoints. Deployed AWS EC2 + RDS backend stack with CloudWatch monitoring for API health.",
     technologies: ["Node.js", "Express", "MySQL", "AWS", "RDS", "CloudWatch"]
   },
