@@ -11,7 +11,7 @@ export const experienceDetails: experienceProps[] = [
     title: "Graduate Research Associate",
     company: "NYU Applied Global Public Health Initiative",
     duration: "Aug 2024 – May 2025",
-    description: "Developed GPT-4 + spaCy pipelines to extract and summarize insights from 2K+ global-health reports, accelerating literature review and policy analysis. Built predictive ML models (XGBoost, logistic regression) for maternal and child health risk mapping across 10+ regions. Automated ETL workflows with Airflow, FastAPI, and SQL, cutting data refresh latency by 40%.",
+    description: "Developed data processing pipelines in Python using pandas and spaCy to clean and structure insights from over 1,000 global health reports. Analyzed maternal and child health datasets from WHO and NGO sources to identify regional vulnerability patterns through exploratory data analysis. Applied NLP and unsupervised learning techniques to extract actionable insights from unstructured health data, supporting research initiatives across multiple projects.",
     technologies: ["Python", "GPT-4", "spaCy", "Airflow", "SQL", "XGBoost", "FastAPI"]
   },
   {
