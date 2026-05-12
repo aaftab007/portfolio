@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
           text={
-            "I BUILD SCALABLE SYSTEMS, OPTIMIZE PERFORMANCE AND CREATE AI-POWERED SOLUTIONS."
+            "I DESIGN REAL-TIME EMBEDDED SYSTEMS, OPTIMIZE FIRMWARE PERFORMANCE AND IMPROVE POWER EFFICIENCY."
           }
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
@@ -25,17 +25,17 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "My work blends distributed systems and machine learning — from multi-agent RAG pipelines to real-time streaming platforms and safety evaluation frameworks."
+                "My work spans firmware performance profiling, power optimization, and real-time embedded system design — from DRAM and NVMe SSD platforms to automotive ECU firmware on AUTOSAR and FreeRTOS-based systems."
               }
             />
             <AnimatedBody
               text={
-                "I've built fault-tolerant APIs, optimized data pipelines, and developed ML systems at NYU, Maxgen, and Cloudwapp, combining reliability engineering with applied AI. My recent research at NYU's Global Public Health Lab used GPT-4 and spaCy to extract structured insights from thousands of unstructured global-health reports, helping automate data-driven decisions."
+                "I've optimized memory subsystem power consumption, reduced interrupt latency, and tuned firmware scheduling at Micron Technology and Infineon Technologies, working across memory, storage, and automotive embedded domains using tools like Perf, Trace32, LTTng, and Tracealyzer."
               }
             />
             <AnimatedBody
               text={
-                "I enjoy solving problems where AI meets infrastructure — from scalable backend systems to intelligent automation. I'm always open to collaborations in AI tooling, ML research, and backend optimization."
+                "I enjoy solving problems at the intersection of hardware and software — from low-level firmware bring-up to system-level power analysis. I'm always open to collaborations in embedded systems, performance engineering, and firmware optimization."
               }
             />
           </div>
@@ -43,7 +43,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Programming"}
+                text={"Embedded & Programming"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -52,13 +52,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Python, Java, C/C++, Go, JavaScript/TypeScript, SQL"
+                  "C, C++, Python, FreeRTOS, AUTOSAR, MCAL, RTE, Microcontroller Programming (AURIX, TriCore)"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"ML & AI"}
+                text={"Memory & Storage"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -67,13 +67,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "PyTorch, Transformers, XGBoost, LangChain, spaCy, MLflow, Sentence-Transformers"
+                  "DDR5, LPDDR, NAND Flash, NVMe, PCIe, SSD Firmware, JEDEC Standards, Cache Hierarchy"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Backend & Infra"}
+                text={"Automotive & RTOS"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -82,13 +82,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Node.js, Express, FastAPI, Kafka, Redis, Docker, Airflow, AWS, GCP, PostgreSQL, MongoDB"
+                  "CAN, LIN, SPI, ECU Firmware, HIL Testing, DMA, Clock Gating, Low-Power Sleep States"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"DevOps & Tools"}
+                text={"Tools & Debugging"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -97,7 +97,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Kubernetes, Terraform, Prometheus, Grafana, GitHub Actions, Playwright"
+                  "Perf, OProfile, LTTng, Trace32, Tracealyzer, JTAG, GDB, ETM/ITM Tracing, Power Analyzers"
                 }
               />
             </div>

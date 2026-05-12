@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="mailto:aaftab.mohammad16@gmail.com?subject=Quick%20Chat%20-%20Portfolio%20Inquiry&body=Hello%20Aaftab%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat%20with%20you.%0A%0ABest%20regards"
+            href="mailto:aaftabmohammad25@gmail.com?subject=Quick%20Chat%20-%20Portfolio%20Inquiry&body=Hello%20Aaftab%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat%20with%20you.%0A%0ABest%20regards"
             target="_blank"
             aria-label="QUICK CHAT"
           >
@@ -111,7 +111,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            AI & Software Engineer | M.S. Computer Engineering,{" "}
+            Embedded Performance & Power Optimization Engineer | M.S. Computer Engineering,{" "}
             <Link
               href="https://www.nyu.edu/"
               target="_blank"
@@ -128,9 +128,9 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-           Engineering distributed AI platforms
+           Designing real-time embedded systems
             <br />
-            and performance-optimized backends.
+            and optimizing firmware for memory, storage &amp; automotive platforms.
           </p>
         </motion.div>
       </div>

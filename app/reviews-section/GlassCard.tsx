@@ -12,13 +12,13 @@ export interface ExperienceCardProps extends React.HTMLAttributes<HTMLDivElement
 // Function to get company logo path
 const getCompanyLogo = (companyName: string): string => {
   const logoMap: { [key: string]: string } = {
-    "NYU Applied Global Public Health Initiative": "/companies/nyu-agphi-logo.png",
-    "Maxgen Technologies Pvt. Ltd.": "/companies/maxgen-logo.png",
+    "Micron Technology": "/companies/micron-logo.png",
+    "Infineon Technologies": "/companies/infineon-logo.png",
+    "Samsung R&D Institute India - Bangalore": "/companies/samsung-logo.png",
     "Cloudwapp Technologies Pvt. Ltd.": "/companies/cloudwapp-logo.png",
-    "Sparks To Ideas": "/companies/sparks-logo.png",
   };
-  
-  return logoMap[companyName] || "/companies/maxgen-logo.png"; // fallback
+
+  return logoMap[companyName] || "/companies/cloudwapp-logo.png"; // fallback
 };
 
 const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
@@ -26,21 +26,21 @@ const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
     return (
       <div
         ref={ref}
-        className={`group relative flex h-[520px] w-full flex-col rounded-2xl border border-white/20 bg-transparent p-8 transition-all duration-300 ease-out hover:border-white/40 ${className}`}
+        className={`group relative flex min-h-[520px] w-full flex-col rounded-2xl border border-white/20 bg-transparent p-8 transition-all duration-300 ease-out hover:border-white/40 ${className}`}
         {...props}
       >
         {/* Header Section */}
         <div className="mb-6">
           {/* Company Badge */}
           <div className="mb-4 flex items-center gap-4">
-            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white shadow-sm overflow-hidden">
+            <div className="flex h-14 w-14 items-center justify-center rounded-full overflow-hidden">
               {company ? (
                 <Image
                   src={getCompanyLogo(company)}
                   alt={`${company} logo`}
                   width={56}
                   height={56}
-                  className="object-contain p-2"
+                  className="object-cover w-full h-full"
                 />
               ) : (
                 <span className="text-lg font-bold text-[#0E1016]">UI</span>
@@ -64,7 +64,7 @@ const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
         
         {/* Description */}
         <div className="flex-1">
-          <p className="text-base leading-relaxed text-[#95979D] line-clamp-8">
+          <p className="text-base leading-relaxed text-[#95979D]">
             {description || "Description of the role and responsibilities."}
           </p>
         </div>
