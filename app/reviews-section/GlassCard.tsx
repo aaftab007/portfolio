@@ -16,9 +16,6 @@ const getCompanyLogo = (companyName: string): string => {
     "New York University": "/companies/nyu-logo.png",
     "eInfochips (An Arrow Company)": "/companies/einfochips-logo.png",
     "Samsung R&D Institute India - Bangalore": "/companies/samsung-logo.png",
-    "Micron Technology": "/companies/micron-logo.png",
-    "Infineon Technologies": "/companies/infineon-logo.png",
-    "Cloudwapp Technologies Pvt. Ltd.": "/companies/cloudwapp-logo.png",
   };
 
   return logoMap[companyName] || "/companies/kpit-logo.png";

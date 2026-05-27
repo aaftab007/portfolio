@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
           text={
-            "I DESIGN REAL-TIME EMBEDDED SYSTEMS, OPTIMIZE FIRMWARE PERFORMANCE AND IMPROVE POWER EFFICIENCY."
+            "I DESIGN REAL-TIME EMBEDDED SYSTEMS AND FIRMWARE FOR AUTOMOTIVE, IOT, AND EDGE PLATFORMS."
           }
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
@@ -25,17 +25,17 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "My work spans firmware performance profiling, power optimization, and real-time embedded system design — from DRAM and NVMe SSD platforms to automotive ECU firmware on AUTOSAR and FreeRTOS-based systems."
+                "Embedded Software & Firmware Engineer with 3+ years of experience building real-time embedded systems for industrial IoT and automotive applications — skilled in C, C++, Embedded C, RTOS architectures, ARM Cortex-M platforms, low-level driver development, and system optimization."
               }
             />
             <AnimatedBody
               text={
-                "I've optimized memory subsystem power consumption, reduced interrupt latency, and tuned firmware scheduling at Micron Technology and Infineon Technologies, working across memory, storage, and automotive embedded domains using tools like Perf, Trace32, LTTng, and Tracealyzer."
+                "At KPIT Technologies and eInfochips, I've worked on automotive ECU firmware, AUTOSAR and FreeRTOS-based designs, sensor integration, and communication protocols (CAN, SPI, I2C, UART), with hands-on debugging using JTAG, oscilloscopes, and logic analyzers."
               }
             />
             <AnimatedBody
               text={
-                "I enjoy solving problems at the intersection of hardware and software — from low-level firmware bring-up to system-level power analysis. I'm always open to collaborations in embedded systems, performance engineering, and firmware optimization."
+                "I focus on reliable, scalable firmware across edge and cloud-connected systems — from protocol stacks and OTA updates to AWS IoT and Azure integration. Open to collaborations in embedded systems, firmware engineering, and IoT product development."
               }
             />
           </div>
@@ -43,7 +43,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Embedded & Programming"}
+                text={"Embedded & Firmware"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -52,13 +52,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "C, C++, Python, FreeRTOS, AUTOSAR, MCAL, RTE, Microcontroller Programming (AURIX, TriCore)"
+                  "C, C++, Embedded C, FreeRTOS, AUTOSAR, MISRA-C, driver development, bootloaders, interrupt handling, embedded Linux (Yocto)"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Memory & Storage"}
+                text={"Platforms & MCUs"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -67,13 +67,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "DDR5, LPDDR, NAND Flash, NVMe, PCIe, SSD Firmware, JEDEC Standards, Cache Hierarchy"
+                  "ARM Cortex-M, STM32, ESP32, NXP i.MX6UL, TI MCUs, Infineon/NXP automotive platforms, Linux-based embedded systems"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Automotive & RTOS"}
+                text={"Protocols & IoT"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -82,13 +82,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "CAN, LIN, SPI, ECU Firmware, HIL Testing, DMA, Clock Gating, Low-Power Sleep States"
+                  "SPI, I2C, UART, CAN, LIN, BLE, Wi-Fi, LoRaWAN, OTA updates, sensor interfacing, edge data acquisition"
                 }
               />
             </div>
             <div className="flex flex-col gap-3">
               <AnimatedTitle
-                text={"Tools & Debugging"}
+                text={"Cloud & Debugging"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -97,7 +97,22 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Perf, OProfile, LTTng, Trace32, Tracealyzer, JTAG, GDB, ETM/ITM Tracing, Power Analyzers"
+                  "AWS IoT Core, Azure IoT Hub, CI/CD, Git, Jenkins, JTAG, CANoe, oscilloscopes, logic analyzers, unit & integration testing"
+                }
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Publication"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "Driver Drowsiness Detection Using AI — International Journal of All Research Education and Scientific Methods (IJARESM), vol. 10, issue 6, June 2022."
                 }
               />
             </div>
