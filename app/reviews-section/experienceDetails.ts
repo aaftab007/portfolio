@@ -8,31 +8,64 @@ export interface experienceProps {
 
 export const experienceDetails: experienceProps[] = [
   {
-    title: "Embedded Performance & Power Optimization Engineer",
-    company: "Micron Technology",
-    duration: "Aug 2024 – Present",
-    description: "Led system-level performance and power optimization for Micron memory subsystems (DDR5/LPDDR/NAND-based storage platforms) using Perf, OProfile, and LTTng, reducing memory subsystem power consumption by 23%. Designed and tuned DRAM power management policies including self-refresh states, power-down modes, and dynamic frequency scaling (DFx/DFS). Conducted deep-dive tracing and interrupt latency analysis using Trace32 and LTTng, reducing latency variance by 16%. Optimized NAND flash initialization and DRAM training sequences, improving device initialization time by 14%. Developed Python-based automation frameworks for performance benchmarking and regression validation, reducing manual validation effort by 38%.",
-    technologies: ["C", "C++", "Python", "DDR5", "LPDDR", "NVMe", "NAND Flash", "Perf", "LTTng", "Trace32", "JTAG", "GDB", "PCIe"]
+    title: "Embedded Software / Firmware Engineer",
+    company: "KPIT Technologies",
+    duration: "Oct 2024 – Present",
+    description:
+      "Contributed to automotive ECU firmware for EV powertrain and battery systems on ARM Cortex-M and Infineon/NXP platforms, supporting CAN, LIN, SPI, I2C, and UART communication. Helped re-architect AUTOSAR-based modular software with C/C++ and FreeRTOS, enabling secure OTA updates, MISRA C compliance, and CI pipelines with Git and Jenkins — achieving 20% faster releases. Supported EV inverter and battery control validation with MATLAB/Simulink. Debugged ECU communication using CANoe, CANalyzer, CANape, ETAS INCA, JTAG, and logic analyzers, reducing firmware defects by 23%. Contributed to UDS (ISO 14229) and OBD-II diagnostics, improving early fault detection accuracy by 33%. Collaborated with cross-functional teams under ASPICE and ISO 26262, improving real-time system response by 17% in production.",
+    technologies: [
+      "C",
+      "C++",
+      "FreeRTOS",
+      "AUTOSAR",
+      "ARM Cortex-M",
+      "CAN",
+      "LIN",
+      "SPI",
+      "I2C",
+      "MATLAB/Simulink",
+      "CANoe",
+      "UDS",
+      "ISO 26262",
+      "MISRA C",
+    ],
   },
   {
-    title: "Embedded Software Engineer – Performance & Power Optimization",
-    company: "Infineon Technologies",
-    duration: "Feb 2022 – Jul 2023",
-    description: "Developed and optimized C/C++ firmware for automotive microcontrollers (AURIX/TriCore-based platforms), improving real-time responsiveness in safety-critical systems. Performed system-level performance profiling using Tracealyzer and ETM/ITM trace tools, reducing interrupt latency by 18% through optimized ISR design. Implemented FreeRTOS-based task scheduling enhancements and memory pool optimization, improving system determinism. Achieved 20% improvement in standby power efficiency by tuning power modes and clock gating strategies. Optimized CAN, LIN, and SPI automotive communication drivers and contributed to AUTOSAR stack integration.",
-    technologies: ["C", "C++", "FreeRTOS", "AUTOSAR", "AURIX", "CAN", "LIN", "SPI", "Tracealyzer", "ETM/ITM", "DMA", "Python"]
+    title: "Graduate Research Assistant",
+    company: "New York University",
+    duration: "Jan 2024 – May 2024",
+    description:
+      "Supported research at NYU Applied Global Public Health Initiative, developing data processing pipelines in Python (pandas, spaCy) to clean and structure insights from 1,000+ global health reports. Analyzed maternal and child health datasets from WHO and NGO sources to identify regional vulnerability patterns. Applied NLP and exploratory data analysis techniques to extract insights from unstructured health data, supporting evidence mapping and research workflows across multiple public-health projects.",
+    technologies: ["Python", "pandas", "spaCy", "NLP", "Data Pipelines", "SQL", "Research"],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Embedded Software Developer",
+    company: "eInfochips (An Arrow Company)",
+    duration: "Oct 2021 – Aug 2023",
+    description:
+      "Developed embedded firmware for IoT and industrial systems on ARM Cortex-M and NXP LPC microcontrollers in Embedded C, interfacing sensors via SPI, I2C, and UART — improving system efficiency by 22%. Designed FreeRTOS-based firmware architecture for multitasking, scheduling, and interrupt handling, achieving a 43% performance gain across client products. Implemented wireless stacks with Wi-Fi, Bluetooth Low Energy, and LoRa for device-to-cloud connectivity, reducing communication latency by 20%. Optimized sensor drivers and real-time data acquisition pipelines, improving power efficiency and extending battery life by 16%. Performed validation with JTAG/SWD, logic analyzers, and serial protocol analyzers. Used Git, Jira, and Eclipse with GCC ARM toolchains, improving delivery efficiency by 37%.",
+    technologies: [
+      "Embedded C",
+      "C++",
+      "FreeRTOS",
+      "ARM Cortex-M",
+      "NXP LPC",
+      "SPI",
+      "I2C",
+      "UART",
+      "BLE",
+      "LoRa",
+      "Wi-Fi",
+      "JTAG",
+      "Git",
+    ],
+  },
+  {
+    title: "Embedded Software Engineer Intern",
     company: "Samsung R&D Institute India - Bangalore",
     duration: "May 2021 – Jul 2021",
-    description: "Contributed to firmware and software development initiatives at Samsung R&D Bangalore, working on embedded software components and system-level integration tasks. Assisted in developing and validating software modules, writing unit tests, and supporting debugging efforts across the development lifecycle. Gained hands-on experience with embedded development workflows, version control practices, and cross-functional collaboration within a large-scale R&D environment.",
-    technologies: ["C", "C++", "Python", "Embedded Software", "Firmware", "Linux", "Git"]
+    description:
+      "Contributed to firmware and embedded software development at Samsung R&D Bangalore, working on embedded software components and system-level integration tasks. Assisted in developing and validating software modules, writing unit tests, and supporting debugging efforts across the development lifecycle. Gained hands-on experience with embedded development workflows, version control practices, and cross-functional collaboration within a large-scale R&D environment.",
+    technologies: ["C", "C++", "Embedded Software", "Firmware", "Linux", "Git"],
   },
-  {
-    title: "Software Engineer Intern",
-    company: "Cloudwapp Technologies Pvt. Ltd.",
-    duration: "May 2020 – Aug 2020",
-    description: "Built a React + Node.js dashboard for 500+ customers, enabling self-service analytics and reducing ticket volume by 40%. Indexed 150K+ MongoDB documents, reducing dashboard load time from 3.5s to 0.8s. Secured APIs with JWT authentication and bcrypt password hashing.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "JWT"]
-  }
 ];

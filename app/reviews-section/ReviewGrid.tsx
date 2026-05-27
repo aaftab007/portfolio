@@ -24,7 +24,7 @@ const Reviews = () => {
       {/* Experience Cards - 2 per row */}
       <div className="w-full px-6 lg:px-8">
         <motion.div 
-          className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2"
+          className="mx-auto grid max-w-6xl grid-cols-1 items-stretch gap-8 md:grid-cols-2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
@@ -42,6 +42,7 @@ const Reviews = () => {
           {experienceDetails.map((experience, index) => (
             <motion.div
               key={index}
+              className="h-full"
               variants={{
                 hidden: { opacity: 0, y: 30 },
                 visible: {

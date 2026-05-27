@@ -12,13 +12,16 @@ export interface ExperienceCardProps extends React.HTMLAttributes<HTMLDivElement
 // Function to get company logo path
 const getCompanyLogo = (companyName: string): string => {
   const logoMap: { [key: string]: string } = {
+    "KPIT Technologies": "/companies/kpit-logo.png",
+    "New York University": "/companies/nyu-logo.png",
+    "eInfochips (An Arrow Company)": "/companies/einfochips-logo.png",
+    "Samsung R&D Institute India - Bangalore": "/companies/samsung-logo.png",
     "Micron Technology": "/companies/micron-logo.png",
     "Infineon Technologies": "/companies/infineon-logo.png",
-    "Samsung R&D Institute India - Bangalore": "/companies/samsung-logo.png",
     "Cloudwapp Technologies Pvt. Ltd.": "/companies/cloudwapp-logo.png",
   };
 
-  return logoMap[companyName] || "/companies/cloudwapp-logo.png"; // fallback
+  return logoMap[companyName] || "/companies/kpit-logo.png";
 };
 
 const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
@@ -26,7 +29,7 @@ const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
     return (
       <div
         ref={ref}
-        className={`group relative flex min-h-[520px] w-full flex-col rounded-2xl border border-white/20 bg-transparent p-8 transition-all duration-300 ease-out hover:border-white/40 ${className}`}
+        className={`group relative flex h-full min-h-[560px] w-full flex-col rounded-2xl border border-white/20 bg-transparent p-8 transition-all duration-300 ease-out hover:border-white/40 ${className}`}
         {...props}
       >
         {/* Header Section */}
@@ -63,15 +66,15 @@ const ExperienceCard = React.forwardRef<HTMLDivElement, ExperienceCardProps>(
         </div>
         
         {/* Description */}
-        <div className="flex-1">
-          <p className="text-base leading-relaxed text-[#95979D]">
+        <div className="mb-6 flex flex-1 flex-col">
+          <p className="line-clamp-[14] flex-1 text-base leading-relaxed text-[#95979D]">
             {description || "Description of the role and responsibilities."}
           </p>
         </div>
 
         {/* Technology Tags */}
         {technologies && technologies.length > 0 && (
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-auto flex flex-wrap gap-2.5">
             {technologies.map((tech, index) => (
               <span
                 key={index}

@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="mailto:aaftabmohammad25@gmail.com?subject=Quick%20Chat%20-%20Portfolio%20Inquiry&body=Hello%20Aaftab%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat%20with%20you.%0A%0ABest%20regards"
+            href="mailto:aaftabmd071@gmail.com?subject=Quick%20Chat%20-%20Portfolio%20Inquiry&body=Hello%20Aaftab%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20chat%20with%20you.%0A%0ABest%20regards"
             target="_blank"
             aria-label="QUICK CHAT"
           >
@@ -102,16 +102,16 @@ const Hero = () => {
       </div>
 
       <div
-        className="absolute bottom-10 flex items-center 
-      justify-center
-      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
+        className="absolute bottom-10 flex w-[90%] max-w-[1440px] flex-col items-center justify-center gap-4 md:bottom-10 lg:w-[90%] lg:flex-row lg:items-end lg:justify-between lg:gap-8"
       >
         <motion.div
-          className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
+          className="max-w-[400px] lg:max-w-[380px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Embedded Performance & Power Optimization Engineer | M.S. Computer Engineering,{" "}
+          <p className="z-50 text-center text-[16px] font-medium leading-snug text-[#e4ded7] md:text-[18px] lg:text-left lg:text-[19px]">
+            Embedded Software &amp; Firmware Engineer
+            <br />
+            M.S. Computer Engineering,{" "}
             <Link
               href="https://www.nyu.edu/"
               target="_blank"
@@ -124,13 +124,13 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
+          className="hidden max-w-[400px] lg:block lg:max-w-[380px]"
           variants={bodyAnimation}
         >
-          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-           Designing real-time embedded systems
+          <p className="text-right text-[16px] font-medium leading-snug text-[#e4ded7] md:text-[18px] lg:text-[19px]">
+            Real-time embedded systems &amp; firmware
             <br />
-            and optimizing firmware for memory, storage &amp; automotive platforms.
+            for automotive ECU, IoT &amp; edge platforms.
           </p>
         </motion.div>
       </div>
